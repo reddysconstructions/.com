@@ -20,7 +20,8 @@ header {
 header img {
     max-width: 300px;
     height: auto;
-    margin-bottom: 15px;
+    dislay: block;
+    margin: 0 auto 15px;
 }
 
 
@@ -91,3 +92,4 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
