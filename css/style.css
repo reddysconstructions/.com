@@ -44,11 +44,12 @@ header {
 }
 
 .tagline-top {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 800;
-    color: #e1edf2;
-    letter-spacing: 0.8px;
-    margin-bottom: 8px;
+    color: #ffffff;          /* Pure white */
+    letter-spacing: 1.5px;   /* Expands text width */
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 
@@ -181,6 +182,7 @@ footer {
         font-size: 24px;
     }
 }
+
 
 
 
