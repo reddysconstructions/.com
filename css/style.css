@@ -1,3 +1,6 @@
+/* ==============================
+   Global Reset & Base Styles
+   ============================== */
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +14,15 @@ body {
     line-height: 1.7;
 }
 
+
+/* ==============================
+   Header
+   ============================== */
 header {
-    background: #0b2a3a;
-    color: #fff;
+    background-color: #0b2a3a;
+    color: #ffffff;
     padding: 30px 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,20 +30,24 @@ header {
 }
 
 header img {
-    max-width: 300px;
+    width: 100%;
+    max-width: 360px;
     height: auto;
-    margin-bottom: 15px;
+    display: block;
 }
 
 
+/* ==============================
+   Navigation
+   ============================== */
 nav {
-    background: #102f44;
+    background-color: #102f44;
     padding: 12px 0;
     text-align: center;
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     margin: 0 18px;
     text-decoration: none;
     font-weight: 500;
@@ -45,18 +57,27 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+/* ==============================
+   Layout Container
+   ============================== */
 .container {
     max-width: 1150px;
-    margin: auto;
+    margin: 0 auto;
     padding: 50px 20px;
 }
 
+
+/* ==============================
+   Sections
+   ============================== */
 .section {
-    background: #fff;
+    background-color: #ffffff;
     padding: 40px;
     margin-bottom: 30px;
+
     border-left: 6px solid #0b2a3a;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
 .section h2 {
@@ -64,6 +85,10 @@ nav a:hover {
     color: #0b2a3a;
 }
 
+
+/* ==============================
+   Image Gallery
+   ============================== */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -73,26 +98,47 @@ nav a:hover {
 .gallery img {
     width: 100%;
     border-radius: 6px;
+    display: block;
 }
 
-input, textarea, button {
+
+/* ==============================
+   Form Elements
+   ============================== */
+input,
+textarea,
+button {
     width: 100%;
     padding: 12px;
     font-size: 15px;
+    margin-bottom: 12px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
 }
 
 button {
-    background: #0b2a3a;
-    color: white;
+    background-color: #0b2a3a;
+    color: #ffffff;
     border: none;
     cursor: pointer;
+    font-weight: 500;
 }
 
+button:hover {
+    background-color: #123b52;
+}
+
+
+/* ==============================
+   Footer
+   ============================== */
 footer {
-    background: #081f2b;
+    background-color: #081f2b;
     color: #cbd5db;
     text-align: center;
     padding: 20px;
     font-size: 14px;
 }
-
