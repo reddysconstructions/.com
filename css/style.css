@@ -30,8 +30,8 @@ header {
 }
 
 header img {
+    max-width: 360px;   /* Increase canvas width */
     width: 100%;
-    max-width: 360px;
     height: auto;
     display: block;
 }
@@ -142,3 +142,4 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
