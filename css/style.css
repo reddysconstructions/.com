@@ -46,10 +46,12 @@ header {
 .tagline-top {
     font-size: 22px;
     font-weight: 800;
-    color: #ffffff;          /* Pure white */
+    color: #000000;          /* Pure black */
     letter-spacing: 1.5px;   /* Expands text width */
     margin-bottom: 10px;
     text-transform: uppercase;
+    display: inline-block;
+    padding: 0 12px;
 }
 
 
@@ -182,6 +184,7 @@ footer {
         font-size: 24px;
     }
 }
+
 
 
 
