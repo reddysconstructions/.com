@@ -55,14 +55,15 @@ header {
 }
 
 
-
-..tagline-main {
-    font-size: 22px;             /* INCREASED SIZE */
-    font-weight: 900;            /* BOLD */
-    color: #ffffff;
-    letter-spacing: 1px;         /* ADDS WIDTH FEEL */
-    max-width: 900px;            /* INCREASED WIDTH */
-    line-height: 1.4;
+.tagline-main {
+    font-size: 24px;             /* Increased size */
+    font-weight: 900;            /* Extra bold */
+    color: #000000;              /* Pure black */
+    letter-spacing: 1.6px;       /* Wider visual feel */
+    max-width: 1100px;           /* Expanded width */
+    line-height: 1.45;
+    margin: 0 auto;              /* Center alignment */
+    text-align: center;
 }
 
 
@@ -184,6 +185,7 @@ footer {
         font-size: 24px;
     }
 }
+
 
 
 
