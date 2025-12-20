@@ -36,6 +36,33 @@ header img {
     display: block;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tagline-top {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e1edf2;
+    margin-top: 10px;
+    letter-spacing: 0.6px;
+}
+
+.tagline-main {
+    font-size: 16px;
+    color: #cfd8dc;
+    margin-top: 4px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
 
 /* ==============================
    Navigation
@@ -142,4 +169,5 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
 
