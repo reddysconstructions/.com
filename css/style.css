@@ -19,21 +19,20 @@ body {
    Header
    ============================== */
 header {
-    background-color: #0b2a3a;
-    color: #ffffff;
-    padding: 30px 20px;
-
+    background: #0b2a3a;
+    color: #fff;
+    padding: 60px 20px;   /* Increased height */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 header img {
-    max-width: 360px;   /* Increase canvas width */
+    max-width: 360px;
     width: 100%;
     height: auto;
-    display: block;
+    margin-bottom: 18px;
 }
 
 header {
@@ -47,9 +46,10 @@ header {
     font-size: 18px;
     font-weight: 600;
     color: #e1edf2;
-    margin-top: 10px;
+    margin-bottom: 8px;
     letter-spacing: 0.6px;
 }
+
 
 .tagline-main {
     font-size: 16px;
@@ -169,5 +169,6 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
 
 
