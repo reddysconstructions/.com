@@ -18,7 +18,7 @@ header {
 }
 
 header img {
-    max-width: 300px;
+    max-width: 450px;
     height: auto;
 }
 
@@ -90,5 +90,6 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
 
 
